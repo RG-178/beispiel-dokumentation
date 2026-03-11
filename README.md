@@ -1,43 +1,91 @@
-# TradePilot Pro
+# PROJECT NAME
 
-**One-liner:**  
-Self-hosted Trading Analytics & Automation Dashboard für aktive Trader, die Marktstruktur, Orderflow und API-Execution kombinieren möchten.
+Kurze Beschreibung des Projekts in 1–2 Sätzen.
+
+Beispiel:
+Ein selbst gehostetes Dashboard zur Analyse von Trading-Daten.
 
 ---
 
 ## Features
 
-- 📊 Multi-Exchange Support (Bybit, Binance, Custom REST APIs)
-- 📈 OHLC + Volume Analytics
-- 🤖 Strategy Engine (Backtesting + Live Execution)
-- 🔐 Secure API Key Handling (.env based)
-- 📤 Export von Reports (CSV / JSON)
-- 🌐 Web Dashboard (responsive)
+Liste der wichtigsten Funktionen.
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+Optional:
+- Screenshots
+- Demo Links
 
 ---
 
-## Demo / Screenshots
+## Use Cases
 
-Screenshots befinden sich im Ordner `/assets/screenshots`.
+Für wen ist dieses Projekt gedacht?
 
-Live Demo (falls aktiviert):  
-https://demo.tradepilotpro.app
+Beispiele:
+
+- Entwickler
+- Trader
+- Unternehmen
+- Privatnutzer
 
 ---
 
 ## Quick Start
 
-### 1. Requirements
+Kurz-Anleitung zum Starten.
 
-- Node.js 20+
-- PostgreSQL 15+
-- Linux / macOS / Windows
-- Optional: Docker
+### 1 Installation
 
-### 2. Install
+git clone REPOSITORY_URL
 
-```bash
-git clone https://github.com/yourname/tradepilot-pro.git
-cd tradepilot-pro
+### 2 Configuration
+
 cp .env.example .env
-npm install
+
+Bearbeite die Werte in der .env Datei.
+
+### 3 Start
+
+docker compose up
+
+ODER
+
+python main.py
+
+---
+
+## Project Structure
+
+Kurze Erklärung wichtiger Ordner.
+
+Beispiel:
+
+/api → Backend Logik  
+/web → Frontend  
+/scripts → Automatisierungen  
+
+---
+
+## Documentation
+
+Weitere Dokumentation:
+
+- docs/INSTALLATION.md
+- docs/DEPLOYMENT.md
+- docs/ARCHITECTURE.md
+
+---
+
+## Contributing (optional)
+
+Falls andere Entwickler beitragen sollen.
+
+---
+
+## License
+
+Siehe LICENSE Datei.
